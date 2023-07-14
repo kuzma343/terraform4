@@ -124,7 +124,7 @@ resource "aws_s3_bucket_object" "example_object_image" {
   bucket = aws_s3_bucket.my_bucket.id
   key    = "kuzma/ryan-r_-bloodyf8-2.jpg"
 
-source = "https://raw.githubusercontent.com/kuzma343/kuzmatest/main/files/123.txt?token=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"
+source = "https://raw.githubusercontent.com/kuzma343/kuzmatest/main/files/ryan-r_-bloodyf8-2.jpg"
 
 
   tags = {
