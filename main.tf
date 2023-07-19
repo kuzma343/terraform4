@@ -124,7 +124,7 @@ resource "aws_s3_bucket_object" "example_object_image" {
   bucket = aws_s3_bucket.my_bucket.id
   key    = "kuzma/ryan-r_-bloodyf8-2.jpg"
 
-source = "https://raw.githubusercontent.com/kuzma343/kuzmatest/main/files/ryan-r_-bloodyf8-2.jpg"
+source = "https://raw.githubusercontent.com/kuzma343/terraform4/main/files/ryan-r_-bloodyf8-2.jpg"
 
 
   tags = {
